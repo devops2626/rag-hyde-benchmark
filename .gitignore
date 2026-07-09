@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+dist/
+build/
+*.egg-info/
+.eggs/
+
+# FAISS & Data files (keep samples, ignore generated)
+*.index
+*.index*
+doc_meta.json
+*.jsonl
+!*.jsonl.sample
+!*.tsv.sample
+
+# Environment & Secrets
+.env
+.env.local
+.env.*.local
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Shell history / backups
+*.sh~
+*.bak
+50k/
+*.index
+*.jsonl
+doc_meta.json
